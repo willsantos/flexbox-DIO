@@ -72,3 +72,29 @@ header .menu{
   display: block;
   margin: 10px 0;
 }
+
+.about{
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about h2{
+  font-size: 32px;
+  color: #122A57;
+  display: flex;
+  margin-bottom: 20px;
+}
+.about h2::before{
+  content: "";
+  height: 50px;
+  width: 5px;
+  margin-right: 5px;
+  background-color: #122A57;
+  position: relative;
+}
+
+.about p{
+  margin-bottom: 10px;
+  width: 90%;
+}
