@@ -163,3 +163,67 @@ header .menu{
   height: 160px;
   margin: auto;
 }
+
+.plans{
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+.plans h2{
+  font-size: 32px;
+}
+.list_plans{
+  display: flex;
+  align-items: flex-end;
+  justify-content:space-between ;
+}
+.item__list_plans{
+  flex: 1;
+  border: 6px solid #122A57;
+  margin-right: 20px;
+  padding: 10px;
+  max-width: 240px;
+}
+
+.item__list_plans .btn{
+  margin:20px auto;
+  
+}
+
+.item__list_plans h3{
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.item__list_plans h3::after{
+  content: "";
+  height: 3px;
+  width: 100%;
+  background-color: #122A57;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.item__list_plans ul{
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  list-style-image: square;
+  margin-bottom: 10px;
+}
+.item__list_plans ul li{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.item__list_plans ul li::before{
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #122A57;
+  margin-right: 5px;
+}
