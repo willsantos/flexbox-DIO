@@ -227,3 +227,16 @@ header .menu{
   background-color: #122A57;
   margin-right: 5px;
 }
+
+footer{
+  background-color: #122A57;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.footer{
+  justify-content: space-between;
+  color: #fff;
+}
+
