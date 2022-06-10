@@ -112,3 +112,54 @@ header .menu{
   background-color: #122A57;
   width: 100%;
 }
+
+.services{
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.services h2{
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.list_services{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.list_services .item__list_services{
+  text-align: center;
+
+  
+}
+
+.item__list_services a{
+  width: 220px;
+  background-color: #fff;
+  border-radius: 30px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+  padding: 10px;
+  color: #122A57;
+  font-size: 14px;
+}
+
+.item__list_services p{
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 25px;
+}
+
+.item__list_services img{
+  width: 80%;
+  height: 160px;
+  margin: auto;
+}
