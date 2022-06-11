@@ -18,6 +18,7 @@ div img{
   display: block;
   width: 100%;
 }
+
 .flex-container{
   display: flex;
   width: 90%;
@@ -26,6 +27,7 @@ div img{
   margin: auto;
 
 }
+
 
 header{
   background-color: #122A57;
@@ -52,9 +54,7 @@ header .list_menu{
  
 }
 
-header .menu{
-  justify-content: space-between;
-}
+
 
 .introduction{
   min-height: 70vh; 
@@ -256,10 +256,11 @@ footer .footer{
   }
 
   .introduction{
-   flex-direction: column-reverse;
+   flex-direction: column-reverse;   
   }
   .introduction .introduction_text{
    width: 100%;
+  
   }
   .about{
     flex-direction: column-reverse;
@@ -285,6 +286,9 @@ footer .footer{
     margin: auto;
     width: 100%;
     margin-bottom: 20px;
+  }
+  .footer p{
+    padding-top: 10px;
   }
 }
 
