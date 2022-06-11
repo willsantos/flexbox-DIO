@@ -250,6 +250,10 @@ footer .footer{
   .flex-container{
     flex-direction: column;
   }
+  
+  header .list_menu{
+    padding-top: 20px;
+  }
 
   .introduction{
    flex-direction: column-reverse;
