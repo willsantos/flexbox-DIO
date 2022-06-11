@@ -35,7 +35,11 @@ header{
   color: #fff;
 }
 
-header .list-items{
+header .menu{
+  justify-content: space-between;
+}
+
+header .list_menu{
   display: flex;
   max-width: 260px;
   width: 100%;
@@ -43,7 +47,7 @@ header .list-items{
   align-items: center;
 }
 
-.list-items li a{
+.list_menu li a{
   color: #fff;
  
 }
