@@ -276,6 +276,9 @@ footer .footer{
     width: 50%;
     margin: auto;
   }
+  .item__list_services{
+    margin-bottom: 20px;
+  }
   .list_plans{
     flex-direction: column;
     align-items: flex-start;
