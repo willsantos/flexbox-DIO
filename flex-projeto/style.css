@@ -20,9 +20,11 @@ div img{
 }
 .flex-container{
   display: flex;
+  width: 100%;
+  min-width: 320px;
   max-width: 992px;
   margin: auto;
-  width: 100%;
+
 }
 
 header{
@@ -183,6 +185,7 @@ header .menu{
   margin-right: 20px;
   padding: 10px;
   max-width: 240px;
+ 
 }
 
 .item__list_plans .btn{
@@ -212,7 +215,6 @@ header .menu{
   padding: 10px 20px;
   display: flex;
   flex-direction: column;
-  list-style-image: square;
   margin-bottom: 10px;
 }
 .item__list_plans ul li{
@@ -235,8 +237,46 @@ footer{
   align-items: center;
 }
 
-.footer{
+footer .footer{
   justify-content: space-between;
   color: #fff;
+}
+
+@media(max-width: 992px){
+  .flex-container{
+    flex-direction: column;
+  }
+
+  .introduction{
+   flex-direction: column-reverse;
+  }
+  .introduction .introduction_text{
+   width: 100%;
+  }
+  .about{
+    flex-direction: column-reverse;
+  }
+  .about img{
+    min-width: 320px;
+    margin: auto;
+  }
+  .list_services{
+    flex-direction: column;
+  }
+   .item__list_services img{
+    width: 50%;
+    margin: auto;
+  }
+  .list_plans{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px ;
+  }
+  .list_plans .item__list_plans{
+    max-width: 90%;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 
